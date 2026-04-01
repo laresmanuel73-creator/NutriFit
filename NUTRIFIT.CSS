@@ -94,3 +94,23 @@ footer { border-top: 1px solid rgba(255,255,255,.1); padding: 70px 0; }
   .kpi { font-size: 38px; }
   .footer-grid { grid-template-columns: 1fr; }
 }
+
+.legal-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.legal-btn {
+  padding: 10px 20px;
+  border: 1px solid #00ff99;
+  border-radius: 20px;
+  color: #00ff99;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.legal-btn:hover {
+  background-color: #00ff99;
+  color: black;
+}
